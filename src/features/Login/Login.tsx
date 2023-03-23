@@ -14,7 +14,7 @@ import {
 } from './slices/loginSlice'
 
 import styles from './Login.module.scss'
-// import TokenInput from '../../common/components/NEW/TokenInput/TokenInput'
+// import TokenInput from '../../common/components/TokenInput/TokenInput'
 
 const Login = (): JSX.Element => {
   const {

@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unnecessary-type-assertion */
 import { Card } from 'react-bootstrap'
 
-import type { UserType } from '../../../types/global'
+import type { UserType } from 'common/types/global'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTrash, faEdit, faMale, faFemale, faInfoCircle } from '@fortawesome/free-solid-svg-icons'
 import { useDispatch } from 'react-redux'
@@ -10,7 +10,7 @@ import {
   SET_EDIT_MODAL_OPEN,
   SET_DELETE_MODAL_OPEN,
   SET_USER_DATA_ALL
-} from '../../../../features/Users/slices/usersSlice'
+} from 'features/Users/slices/usersSlice'
 
 import classNames from 'common/util/classNames'
 import styles from './UserCard.module.scss'

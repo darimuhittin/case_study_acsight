@@ -5,7 +5,7 @@ import { Form } from 'react-bootstrap'
 import { faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons'
 
 import styles from './TokenInput.module.scss'
-import classNames from '../../../util/classNames'
+import classNames from 'common/util/classNames'
 const TokenInput = ({
   placeholder,
   className,

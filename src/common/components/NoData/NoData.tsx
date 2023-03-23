@@ -1,4 +1,4 @@
-import classNames from '../../../util/classNames'
+import classNames from 'common/util/classNames'
 import styles from './NoData.module.scss'
 const NoData = (): JSX.Element => {
   return (

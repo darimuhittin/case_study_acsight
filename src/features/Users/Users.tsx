@@ -9,7 +9,7 @@ import {
   getQueryForHeaderData
   // getQuery
 } from '../../api/API'
-import UserCard from '../../common/components/NEW/UserCard/UserCard'
+import UserCard from '../../common/components/UserCard/UserCard'
 import EditModal from './components/EditModal/EditModal'
 
 import { useSelector, useDispatch } from 'react-redux'
@@ -18,9 +18,9 @@ import { SET_ADD_USER_MODAL_OPEN } from './slices/usersSlice'
 import styles from './Users.module.scss'
 import AddUserModal from './components/AddUserModal/AddUserModal'
 import DeleteModal from './components/DeleteModal/DeleteModal'
-import NoData from '../../common/components/NEW/NoData/NoData'
-import LoadingScreen from '../../common/components/NEW/LoadingScreen/LoadingScreen'
-import PaginationLocal from '../../common/components/NEW/Pagination/Pagination'
+import NoData from '../../common/components/NoData/NoData'
+import LoadingScreen from '../../common/components/LoadingScreen/LoadingScreen'
+import PaginationLocal from '../../common/components/Pagination/Pagination'
 
 const Users = (): JSX.Element => {
   const [page, setPage] = useState<number>(1)
