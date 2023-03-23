@@ -1,0 +1,26 @@
+.container {
+  .top {
+    margin: 20px 0;
+    display: flex;
+  }
+}
+
+.completed {
+  color: #8cff98;
+}
+
+.pending {
+  color: #f27c7c;
+}
+
+.add_button {
+  max-width: 150px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.back_button {
+  max-width: 45px;
+  border-radius: 50%;
+}

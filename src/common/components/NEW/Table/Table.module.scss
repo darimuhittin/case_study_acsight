@@ -1,0 +1,34 @@
+td {
+  padding: 0.5rem !important;
+}
+
+thead {
+  background-color: #262626;
+  border-color: #363636;
+  color: #fff;
+}
+
+tr:nth-child(odd) {
+  background-color: #363636;
+  border-color: #363636;
+
+  & > * {
+    color: #fff !important;
+  }
+}
+
+tr:nth-child(even) {
+  background-color: #262626;
+  border-color: #363636;
+
+  & > * {
+    color: #fff !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  th,
+  td {
+    padding: 1rem !important;
+  }
+}

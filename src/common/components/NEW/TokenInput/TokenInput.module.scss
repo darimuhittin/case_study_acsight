@@ -1,0 +1,17 @@
+.container {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.input {
+  background-image: none !important;
+  padding-right: 40px;
+}

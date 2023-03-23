@@ -1,0 +1,93 @@
+.container {
+  border: none;
+  border-radius: 16px;
+  background-color: #262626;
+  color: #fff;
+  width: 100%;
+}
+
+.image {
+  border-radius: 50%;
+}
+
+.active {
+  background-color: #8cff98;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 9px 2px #8cff98;
+  margin: 0px 10px;
+}
+
+.inactive {
+  background-color: #f27c7c;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 9px 2px #f27c7c;
+  margin: 0px 10px;
+}
+
+.status_container {
+  min-width: 140px;
+}
+
+.status_result {
+  min-width: 60px;
+  text-align: end;
+}
+.bold {
+  font-weight: 700;
+}
+
+.data_field {
+  margin-top: 14px;
+  display: flex;
+  flex-direction: column;
+
+  .data_field__caption {
+    min-width: 70px;
+    display: inline-block;
+  }
+}
+
+.edit {
+  color: #9ef3ff;
+  cursor: pointer;
+}
+
+.delete {
+  color: #f27c7c;
+  cursor: pointer;
+}
+
+.details {
+  color: #8cff98;
+  cursor: pointer;
+}
+
+.deneme {
+}
+
+.gender {
+  margin-left: 20px;
+}
+
+.data_container {
+}
+
+.email_field {
+  line-height: 1.5em;
+  height: 3em;
+}
+
+@media only screen and (min-width: 768px) {
+  .data_field {
+    flex-direction: row;
+  }
+  .data_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
